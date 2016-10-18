@@ -17,11 +17,24 @@
   	</head>
     <body>
 
-    	<command>
-    		<div>
-    			<a class="rodolfo" href="#">Olá</a>
-    		</div>
-    	</command>
+	<div ng-controller="demoController">
+		    <div class="button" dx-button="{text:'Show action sheet', onClick: showActionSheet}"></div>
+		    <div dx-action-sheet="{ 
+			dataSource: actionSheetData,
+			title: 'Choose action',
+			showTitle: true,
+			bindingOptions: {
+			    visible: 'actionSheetVisible',
+			    cancelText: 'actionSheetCancelText'
+			}
+		    }"></div>
+		    <div class="dx-fieldset">
+			<div class="dx-field">
+			    <div class="dx-field-label">Cancel text</div>
+			    <div class="dx-field-value" ng-model="actionSheetCancelText" dx-text-box="{ }"></div>
+			</div>
+		    </div>
+	</div>
 
 
 
