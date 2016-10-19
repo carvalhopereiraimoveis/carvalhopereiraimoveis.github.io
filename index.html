@@ -7,12 +7,15 @@
 <link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="css/estilo.css" rel="stylesheet"> 
+<link href="css/estilo.css" rel="stylesheet">
+<link href="css/nouislider.pips.css" rel="stylesheet">
+<link href="css/nouislider.css" rel="stylesheet">
+<link href="css/nouislider.tooltips.css" rel="stylesheet">  
 
 </head>
 <body>
 <div class="">
-
+<!-- topo , logo -->
 	<nav>
 		<div class="nav-wrapper z-depth-1 teal">
 		<div class="container">
@@ -26,7 +29,9 @@
 		</ul>
 		</div></div></div>
 	</nav>
+	<!-- FIM topo , logo -->
 
+	<!-- tabs -->
 	<div class="widget-item z-depth-1">
 		<div>
 			<ul class="tabs">
@@ -37,6 +42,9 @@
 		</div>
 	</div>
 
+	<!-- FIM tabs -->
+
+	<!-- cards -->
 	<div class="container">
 		<div class="row">
 			<div class="card-panel center-align valign-wrapper">
@@ -63,19 +71,77 @@
 	    </div>
 	</div>
 
+	<!-- FIM tabs -->
 
+	<!-- modal -->
+	  
+	<div id="mfiltro" class="modal">
+		<div class="modal-content">
+		<h4>Filtro</h4>
+				<!-- Switch -->
+		<p>Piscina</p>
+		<div class="switch">
+			<label>
+			Não
+			<input type="checkbox">
+			<span class="lever"></span>
+			Sim
+			</label>
+		</div>
+
+		<!-- Disabled Switch -->
+		<p>Quadra Esportiva</p>
+		<div class="switch">
+			<label>
+			Off
+			<input disabled type="checkbox">
+			<span class="lever"></span>
+			On
+			</label>
+		</div>
+		<p>Preço</p>
+		<div id="test5" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
+			<div class="noUi-base">
+				<div class="noUi-origin noUi-connect" style="left: 22%;">
+					<div class="noUi-handle noUi-handle-lower">
+						<div class="range-label">
+							<span>R$460.000,00</span>
+						</div>
+					</div>
+				</div>
+			<div class="noUi-origin noUi-background" style="left: 67%;">
+				<div class="noUi-handle noUi-handle-upper">
+					<div class="range-label"><span>R$2.000.000,00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		</div>
+
+		
+		<div class="modal-footer">
+		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ver!</a>
+		</div>
+	</div>
+
+	<!-- FIM modal -->
+	<!-- footer -->
 	<div class="row rodape-fixo">
 		<div class=" valign-wrapper teal">
 			<div class="container center">
-			<a class="waves-effect waves-green btn-large"><i class="material-icons left">mode_edit</i>FILTRAR BUSCA</a>
+			<a class="waves-effect waves-green btn btn-small modal-trigger" href="#mfiltro"><i class="material-icons left">mode_edit</i>FILTRAR BUSCA</a>
 			</div>
 	    </div>
 	</div>
+	<!-- FIM footer -->
+
 </div>
 
 <!-- jQuery is required by Materialize to function. -->
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/materialize.min.js"></script>
+<script src="js/nouislider.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript">
 //custom JS code
