@@ -5,7 +5,7 @@ $( document ).ready(function() {
       interval: 4200
     })
 
-
+/*
     var $btns = $('.btn').click(function() {
 	  if (this.id == 'todos') {
 	    $('#parent > div').fadeIn(450);
@@ -17,7 +17,7 @@ $( document ).ready(function() {
 	  $(this).addClass('ativo');
 	})
 
-
+*/
 
 
 
