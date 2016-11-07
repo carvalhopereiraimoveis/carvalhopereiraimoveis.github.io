@@ -19,4 +19,19 @@ body {
     font-size:14px;
 }
 
+.whatsapp-perfil{
+    position: absolute;
+    right:260px;
+    top:50px;
+    text-align: center;
+    border-radius: 50%;
+    border:0;
+    border-top:1px solid #eee
+    padding:1px 1px;
+    font-size:14px;
+}
+
+
+
+
 
