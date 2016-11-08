@@ -8,4 +8,4 @@ php:
   - nightly
   
 script:
-  phpunit index.php
+  phpunit Test.php
