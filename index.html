@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Carvalho Pereira Imóveis</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="leaflet.css" />
+
+    <script src="leaflet.js"></script>
+
+  </head>
+  <body>
+
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-inverse" role="navigation">
+				<div class="navbar-header">
+					 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="#">Carvalho Pereira Imóveis</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<!-- <li class="active">
+							<a href="#">Contatos</a>
+						</li>
+						<li>
+							<a href="#">Link</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li> -->
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control"  placeholder="Procurar por Cidade...">
+						</div> 
+						<button type="submit" class="btn btn-default">
+							Procurar
+						</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">Contatos</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acesso<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Entrar</a>
+								</li>
+								<li>
+									<a href="#">Cadastrar</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Entrar com Gmail</a>
+								</li>
+								<li>
+									<a href="#">Entrar com Facebook</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+			<div class="row">
+				<div class="col-md-8" id="parent">
+					<div class="row porta">
+						<div class="col-md-6">
+							<div class="thumbnail" style="background-color: #f8f8f8;">
+								<strong>
+									Mairinque - Porta do Sol
+								</strong>
+								<img alt="..." class="img-rounded" src="img/1200000b/001.jpg" />
+								<div class="caption">
+									<h3>
+										Venda R$ 1.200.000,00
+									</h3>
+									<p><small>Temporada: R$990,00 / dia</small></p>
+									<ul>
+										<li>Dormitórios: 4</li>
+										<li>Suítes: 2</li>
+										<li>Campo gramado</li>
+										<li>Piscina</li>
+										<li>Churrasqueira + forno de pizza</li>
+										<li>90m² Construído</li>
+										<li>640m² Total</li>
+										<li>Condomínio: R$ 510,00 / mês</li>
+									</ul>
+									<p>
+										<!-- <a href="intent:01515997530388#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">Whatsapp</a>
+										-->
+										<div class="item">
+											<a id="modal-whats" href="#modal-container-whats" data-toggle="modal" role="button" class="btn azm-social azm-size-32 azm-circle azm-long-shadow azm-whatsapp">
+												<i class="fa fa-whatsapp"></i>
+											</a>
+										
+											<a id="modal-more" class="btn" href="#modal-container-more" data-toggle="modal" role="button">
+												<img src="img/home/camera-ic32.png" /><span class="notify-badge">28</span>
+											</a>
+										</div>
+
+									<!-- MODAL para WHATSAPP-->
+									<div class="modal fade" id="modal-container-whats" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Contate nosso Corretor
+													</h4>
+												</div>
+												<div class="modal-body">
+													<div class="row">
+													<img alt="..." class="img-rounded" src="img/home/whatsapp.jpg">
+													<img class="whatsapp-perfil" src="img/home/eu.jpg">(15)99999999</img>
+													</img>
+													</div>
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Fechar
+													</button> 
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para WHATSAPP-->
+									
+									<!-- MODAL para mais informações-->
+									<div class="modal fade" id="modal-container-more" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Mais imagens do imóvel
+													</h4>
+												</div>
+												<div class="modal-body">
+													<div class="thumbnail" style="background-color: #f8f8f8;">
+													
+													<img alt="..." class="img-rounded" src="img/1200000b/002.jpg" />
+													<img alt="..." class="img-rounded" src="img/1200000b/003.jpg" />
+													<img alt="..." class="img-rounded" src="img/1200000b/004.jpg" />
+													<img alt="..." class="img-rounded" src="img/1200000b/005.jpg" />
+
+
+													</div>
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Fechar
+													</button> 
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para mais informações-->
+
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="thumbnail" style="background-color: #f8f8f8;">
+								<strong>
+									Mairinque - Porta do Sol
+								</strong>
+								<img alt="..." class="img-rounded" src="img/1200000a/001.jpg" />
+								<div class="caption">
+									<h3>
+										Venda R$ 1.200.000,00
+									</h3>
+									<p><small>Temporada: R$990,00 / dia</small></p>
+									<ul>
+										<li>Dormitórios: 4</li>
+										<li>Suítes: 2</li>
+										<li>Campo gramado</li>
+										<li>Piscina</li>
+										<li>Churrasqueira + forno de pizza</li>
+										<li>90m² Construído</li>
+										<li>640m² Total</li>
+										<li>Condomínio: R$ 510,00 / mês</li>
+									</ul>
+									<p>
+									<div class="item">
+										<a id="modal-whats" href="#modal-container-whats" data-toggle="modal" role="button" class="btn azm-social azm-size-32 azm-circle azm-long-shadow azm-whatsapp">
+											<i class="fa fa-whatsapp"></i>
+										</a>
+									
+										<a id="modal-more" class="btn" href="#modal-container-more" data-toggle="modal" role="button">
+											<img src="img/home/camera-ic32.png" /><span class="notify-badge">12</span>
+										</a>
+									</div>
+
+									<!-- MODAL para WHATSAPP-->
+									<div class="modal fade" id="modal-container-whats" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													whatsApp info
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para WHATSAPP-->
+									
+									<!-- MODAL para mais informações-->
+									<div class="modal fade" id="modal-container-more" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													mais imagens
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para mais informações-->
+
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row saoroque">
+						<div class="col-md-6">
+							<div class="thumbnail" style="background-color: #f8f8f8;">
+								<strong>
+									Mairinque - Porta do Sol
+								</strong>
+								<img alt="..." class="img-rounded" src="img/790a/001.jpg" />
+								<div class="caption">
+									<h3>
+										Venda R$ 790.000,00
+									</h3>
+									<p><small>Temporada: R$990,00 / dia</small></p>
+									<ul>
+										<li>Dormitórios: 4</li>
+										<li>Suítes: 2</li>
+										<li>Campo gramado</li>
+										<li>Piscina</li>
+										<li>Churrasqueira + forno de pizza</li>
+										<li>90m² Construído</li>
+										<li>640m² Total</li>
+										<li>Condomínio: R$ 510,00 / mês</li>
+									</ul>
+									<p>
+									<div class="item">
+										<a id="modal-whats" href="#modal-container-whats" data-toggle="modal" role="button" class="btn azm-social azm-size-32 azm-circle azm-long-shadow azm-whatsapp">
+											<i class="fa fa-whatsapp"></i>
+										</a>
+									
+										<a id="modal-more" class="btn" href="#modal-container-more" data-toggle="modal" role="button">
+											<img src="img/home/camera-ic32.png" /><span class="notify-badge">31</span>
+										</a>
+									</div>
+
+									<!-- MODAL para WHATSAPP-->
+									<div class="modal fade" id="modal-container-whats" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													whatsApp info
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para WHATSAPP-->
+									
+									<!-- MODAL para mais informações-->
+									<div class="modal fade" id="modal-container-more" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													mais imagens
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para mais informações-->
+
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="thumbnail" style="background-color: #f8f8f8;">
+								<strong>
+									Mairinque - Porta do Sol
+								</strong>
+								<img alt="..." class="img-rounded" src="img/790b/001.jpg" />
+								<div class="caption">
+									<h3>
+										Venda R$ 790.000,00
+									</h3>
+									<p><small>Temporada: R$990,00 / dia</small></p>
+									<ul>
+										<li>Dormitórios: 4</li>
+										<li>Suítes: 2</li>
+										<li>Campo gramado</li>
+										<li>Piscina</li>
+										<li>Churrasqueira + forno de pizza</li>
+										<li>90m² Construído</li>
+										<li>640m² Total</li>
+										<li>Condomínio: R$ 510,00 / mês</li>
+									</ul>
+									<p>
+									<div class="item">
+										<a id="modal-whats" href="#modal-container-whats" data-toggle="modal" role="button" class="btn azm-social azm-size-32 azm-circle azm-long-shadow azm-whatsapp">
+											<i class="fa fa-whatsapp"></i>
+										</a>
+									
+										<a id="modal-more" class="btn" href="#modal-container-more" data-toggle="modal" role="button">
+											<img src="img/home/camera-ic32.png" /><span class="notify-badge">19</span>
+										</a>
+									</div>
+
+									<!-- MODAL para WHATSAPP-->
+									<div class="modal fade" id="modal-container-whats" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													whatsApp info
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para WHATSAPP-->
+									
+									<!-- MODAL para mais informações-->
+									<div class="modal fade" id="modal-container-more" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													mais imagens
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para mais informações-->
+
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row sorocaba">
+						<div class="col-md-6">
+							<div class="thumbnail" style="background-color: #f8f8f8;">
+								<strong>
+									Mairinque - Porta do Sol
+								</strong>
+								<img alt="..." class="img-rounded" src="img/001.jpg" />
+								<div class="caption">
+									<h3>
+										Venda: R$ 780.000,00
+									</h3>
+									<p><small>Temporada: R$990,00 / dia</small></p>
+									<ul>
+										<li>Dormitórios: 4</li>
+										<li>Suítes: 2</li>
+										<li>Campo gramado</li>
+										<li>Piscina</li>
+										<li>Churrasqueira + forno de pizza</li>
+										<li>90m² Construído</li>
+										<li>640m² Total</li>
+										<li>Condomínio: R$ 510,00 / mês</li>
+									</ul>
+									<p>
+									<div class="item">
+										<a id="modal-whats" href="#modal-container-whats" data-toggle="modal" role="button" class="btn azm-social azm-size-32 azm-circle azm-long-shadow azm-whatsapp">
+											<i class="fa fa-whatsapp"></i>
+										</a>
+									
+										<a id="modal-more" class="btn" href="#modal-container-more" data-toggle="modal" role="button">
+											<img src="img/home/camera-ic32.png" /><span class="notify-badge">10</span>
+										</a>
+									</div>
+
+									<!-- MODAL para WHATSAPP-->
+									<div class="modal fade" id="modal-container-whats" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													whatsApp info
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para WHATSAPP-->
+									
+									<!-- MODAL para mais informações-->
+									<div class="modal fade" id="modal-container-more" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													mais imagens
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para mais informações-->
+
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="thumbnail" style="background-color: #f8f8f8;">
+								<strong>
+									Mairinque - Porta do Sol
+								</strong>
+								<img alt="..." class="img-rounded" src="img/002.jpg" />
+								<div class="caption">
+									<h3>
+										Venda: R$ 780.000,00
+									</h3>
+									<p><small>Temporada: R$990,00 / dia</small></p>
+									<ul>
+										<li>Dormitórios: 4</li>
+										<li>Suítes: 2</li>
+										<li>Campo gramado</li>
+										<li>Piscina</li>
+										<li>Churrasqueira + forno de pizza</li>
+										<li>90m² Construído</li>
+										<li>640m² Total</li>
+										<li>Condomínio: R$ 510,00 / mês</li>
+									</ul>
+									<p>
+									<div class="item">
+										<a id="modal-whats" href="#modal-container-whats" data-toggle="modal" role="button" class="btn azm-social azm-size-32 azm-circle azm-long-shadow azm-whatsapp">
+											<i class="fa fa-whatsapp"></i>
+										</a>
+									
+										<a id="modal-more" class="btn" href="#modal-container-more" data-toggle="modal" role="button">
+											<img src="img/home/camera-ic32.png" /><span class="notify-badge">09</span>
+										</a>
+									</div>
+
+									<!-- MODAL para WHATSAPP-->
+									<div class="modal fade" id="modal-container-whats" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													whatsApp info
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para WHATSAPP-->
+									
+									<!-- MODAL para mais informações-->
+									<div class="modal fade" id="modal-container-more" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													 
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+														×
+													</button>
+													<h4 class="modal-title" id="myModalLabel">
+														Modal title
+													</h4>
+												</div>
+												<div class="modal-body">
+													mais imagens
+												</div>
+												<div class="modal-footer">
+													 
+													<button type="button" class="btn btn-default" data-dismiss="modal">
+														Close
+													</button> 
+													<button type="button" class="btn btn-primary">
+														Save changes
+													</button>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!-- MODAL para mais informações-->
+
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="page-header">
+						<img src="img/home/logo.png" />
+					</div>
+					<div class="carousel slide" id="carousel-main">
+						<ol class="carousel-indicators">
+							<li data-slide-to="0" data-target="#carousel-main" class="active">
+							</li>
+							<li data-slide-to="1" data-target="#carousel-main">
+							</li>
+							<li data-slide-to="2" data-target="#carousel-main">
+							</li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item">
+								<img alt="Porta do Sol" src="img/home/entrada_pds.jpg">
+								<div class="carousel-caption">
+									<strong>
+									<h4>
+										Porta do Sol
+									</h4>
+									<p>
+										Encontre chácaras e lotes para vendas e mais negociações.
+									</p>
+									</strong>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="Sorocaba" src="img/home/entrada_sor.jpg">
+								<div class="carousel-caption">
+									<strong>
+									<h4>
+										Sorocaba
+									</h4>
+									<p>
+										Em Sorocaba você também encontra a melhor consultoria. Casas e lotes em condomínios, bairros, casas para aluguel. Tudo aqui.
+									</p>
+									</strong>
+								</div>
+							</div>
+							<div class="item active">
+								<img alt="Região" src="img/home/entrada_pilar.jpg">
+								<div class="carousel-caption">
+									<strong>
+									<h4>
+										Toda a região
+									</h4>
+									<p>
+										Também trabalhamos com vendas de fazendas e sítios na nossa região.
+									</p>
+									</strong>
+								</div>
+							</div>
+						</div> 
+						<a class="left carousel-control" href="#carousel-main" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left">
+							</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-main" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right">
+							</span>
+						</a>
+					</div>	
+
+					<hr></hr>
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								<strong>Imóveis por localização</strong>
+							</h3>
+						</div>
+						<div class="panel-body">
+							<a class="btn ativo" id="todos"><span class="badge">57</span>
+							Todos os Imóveis</a> <br>
+							<a class="btn" id="porta"><span class="badge">18</span>
+							Mairinque - Porta do Sol</a> <br>
+							<a class="btn" id="saoroque"><span class="badge">3</span>
+							São Roque</a> <br>
+							<a class="btn" id="sorocaba"><span class="badge">5</span>
+							Sorocaba</a> <br>
+							<a class="btn" id="pilar"><span class="badge">0</span>
+							Pilar do Sul</a> <br>
+						</div>
+						<div style="height: 28px; padding:0" class="panel-footer">
+							<em><small>Carvalho Pereira Imóveis®</em></small>
+						</div>
+					</div>
+
+					<div class="">
+						<img class="rounded" src="img/home/fl.png">
+					</div>
+
+					<hr></hr>
+
+					<div class="row">
+						<img src="img/home/bb_ic.png" style="height: 64px; width: 64px padding:0"> | <img src="img/home/caixa_ic.jpg"  style="height: 64px; width: 64px padding:0">
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="navbar navbar-inverse">
+			<div class="col-md-6">
+				<p>
+					<strong>Carvalho Pereira Imóveis®</strong>. Mairinque - <em>São Paulo | </em><small>Cel: (11) 99009999 /// CRECI 0000008</small>
+				</p>
+			</div>
+			<div class="col-md-6">
+				<div class="btn-group">
+					<a href="" class="btn azm-social azm-size-32 azm-circle azm-long-shadow azm-whatsapp"><i class="fa fa-whatsapp"></i></a> 
+					<a href="" class="btn azm-social azm-size-32 azm-circle azm-long-shadow azm-facebook"><i class="fa fa-facebook"></i></a> 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    
+  </body>
+</html>
